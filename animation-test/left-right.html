@@ -1,0 +1,125 @@
+
+<!doctype html>
+<html>
+<head>
+  <title>CSS animations</title>
+  <style type="text/css">
+    .slidein-left {
+      -moz-animation-duration: 3s;
+      -webkit-animation-duration: 3s;
+      -moz-animation-name: slidein-left;
+      -webkit-animation-name: slidein-left;
+      -moz-animation-iteration-count: 1;
+      -webkit-animation-iteration-count: 1;
+      -moz-animation-direction: alternate;
+      -webkit-animation-direction: alternate;
+	  position:relative;
+    }
+    
+    @-moz-keyframes slidein-left {
+		0%   {left:0px; top:0px;}
+		50%  {left:600px; top:0px;}
+		100% {left:0px; top:0px;}
+    }
+    
+    @-webkit-keyframes slidein-left {
+		0%   {left:0px; top:0px;}
+		50%  {left:600px; top:0px;}
+		100% {left:0px; top:0px;}
+    }
+	
+	.slidein-right {
+      -moz-animation-duration: 3s;
+      -webkit-animation-duration: 3s;
+      -moz-animation-name: slidein-right;
+      -webkit-animation-name: slidein-right;
+      -moz-animation-iteration-count: 1;
+      -webkit-animation-iteration-count: 1;
+      -moz-animation-direction: alternate;
+      -webkit-animation-direction: alternate;
+	  position:relative;
+    }
+	
+	@-moz-keyframes slidein-right{
+		0%   {right:0px; top:0px;}
+		50%  {right:600px; top:0px;}
+		100% {right:0px; top:0px;}
+	}
+	@-webkit-keyframes slidein-right{
+		0%   {right:0px; top:0px;}
+		50%  {right:600px; top:0px;}
+		100% {right:0px; top:0px;}
+	}
+
+
+  </style>
+  <script>
+    function listener(e) {
+      var l = document.createElement("li");
+      switch(e.type) {
+        case "animationstart":
+          l.innerHTML = "Started: elapsed time is " + e.elapsedTime;
+          break;
+        case "animationend":
+          l.innerHTML = "Ended: elapsed time is " + e.elapsedTime;
+          break;
+        case "animationiteration":
+          l.innerHTML = "New loop started at time " + e.elapsedTime;
+          break;
+      }
+      document.getElementById("output").appendChild(l);
+    }
+    
+    function left() {
+      var e = document.getElementById("watchme1");
+      e.addEventListener("animationstart", listener, false);
+      e.addEventListener("animationend", listener, false);
+      e.addEventListener("animationiteration", listener, false);
+      
+      e.className = "slidein-left";
+    }
+	
+	function right() {
+      var e = document.getElementById("watchme2");
+      e.addEventListener("animationstart", listener, false);
+      e.addEventListener("animationend", listener, false);
+      e.addEventListener("animationiteration", listener, false);
+      
+      e.className = "slidein-right";
+    }
+
+    timer12 = setTimeout(function () {
+		left();
+    }, 500);
+
+    timer22 = setTimeout(function () {
+		right();
+    }, 500);
+	
+  </script>
+  <style>
+    body{ 
+        width: 1024px;
+		margin: 0 auto;
+	}
+	#watchme1{
+		width:50%;
+		float:left;
+	}
+	#watchme1 img{
+		float:left;
+	}
+	#watchme2{
+		width:50%;
+		float:right;
+	}
+	#watchme2 img{
+		float:right;
+	}
+  </style>
+</head>
+<body>
+  <h1  id="watchme1"> <img src="img3-4.png" /></h1>
+  <h1  id="watchme2"> <img src="img3-4.png" /></h1>
+</body>
+</html>

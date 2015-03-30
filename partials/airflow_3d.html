@@ -1,7 +1,11 @@
 <div class="height-wrapper block full-wrapper">
     <div class="room-types">
         <div class="header-page" id="div-header">
-            <img id="logo" src="img/1/img1-1.png"> 
+            <div class="rain">
+                <div class="border start">
+                    <img id="logo" src="img/1/img1-1.png" alt="Daikin">
+                </div>
+            </div>
             <h2>3D Airflow</h2>
         </div>
         <div class="center-page" id="div-center">
@@ -28,10 +32,12 @@
 
     timer3 = setTimeout(function () {
         $('#div-content-1').removeClass('left-content');
+        left();
     }, 2000);
 
     timer4 = setTimeout(function () {
         $('#div-content-2').removeClass('right-content');
+        right();
     }, 2000);   
 </script>
 

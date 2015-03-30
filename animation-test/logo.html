@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>CSS3 Glowing Daikin</title>
+		<style>
+			body{
+				background: url(bg.jpg) no-repeat 50% 50% fixed;
+ 				 background-size: cover;
+			}
+			.border,
+			.rain{
+				height: 113px;
+				width: 115px;
+			}
+			.rain{
+				 border-radius: 15px;
+				 margin: 100px auto;
+			}
+			.border{
+				padding: 3px;
+				-moz-border-radius: 15px;
+			    -webkit-border-radius: 15px;
+				border-radius: 15px;
+			}		
+			.border.end,
+			.rain.end{
+				-moz-transition-property: background-position;  
+				-moz-transition-duration: 30s;
+				-moz-transition-timing-function: linear;
+				-webkit-transition-property: background-position;  
+				-webkit-transition-duration: 30s;  
+				-webkit-transition-timing-function: linear;
+				-o-transition-property: background-position;  
+				-o-transition-duration: 30s;  
+				-o-transition-timing-function: linear;
+				transition-property: background-position;  
+				transition-duration: 30s;  
+				transition-timing-function: linear;
+				background-position: -5400px 0, -4600px 0, -3800px 0, -3000px 0;	
+			}			
+			@-webkit-keyframes colors {
+			    0% {background-color: #fff;}
+			    15% {background-color: #00A3C8;}
+			    30% {background-color: #EFFD44;}
+			    45% {background-color: #00A3C8;}
+			    60% {background-color: #EFFD44;}
+			    75% {background-color: #00A3C8;}
+			    90% {background-color: #EFFD44;}
+			    100% {background-color: #00A3C8;}
+		    }		    
+		    .border,.rain{
+			    -webkit-animation-direction: normal;
+			    -webkit-animation-duration: 20s;
+			    -webkit-animation-iteration-count: infinite;
+			    -webkit-animation-name: colors;
+			    -webkit-animation-timing-function: ease;
+		    }
+			.rain img{
+				border-radius: 15px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="rain">
+			<div class="border start">
+				<img src="img2-1.png">
+			</div>
+		</div>
+	</body>
+</html>

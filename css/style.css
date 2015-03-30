@@ -1,0 +1,104 @@
+.slidein-left {
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -moz-animation-name: slidein-left;
+    -webkit-animation-name: slidein-left;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    position:relative;
+}
+
+@-moz-keyframes slidein-left {
+    0%   {left:0px; top:0px;}
+    50%  {left:600px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+@-webkit-keyframes slidein-left {
+    0%   {left:0px; top:0px;}
+    50%  {left:600px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+.slidein-right {
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -moz-animation-name: slidein-right;
+    -webkit-animation-name: slidein-right;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-direction: alternate;
+    -webkit-animation-direction: alternate;
+    position:relative;
+}
+
+@-moz-keyframes slidein-right{
+    0%   {right:0px; top:0px;}
+    50%  {right:600px; top:0px;}
+    100% {right:0px; top:0px;}
+}
+@-webkit-keyframes slidein-right{
+    0%   {right:0px; top:0px;}
+    50%  {right:600px; top:0px;}
+    100% {right:0px; top:0px;}
+}
+
+/*logo*/
+
+.border,
+.rain{
+    height: 113px;
+    width: 115px;
+    float: left;
+}
+.rain{
+    border-radius: 15px;
+}
+.border{
+    padding: 6px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+.border.end,
+.rain.end{
+    -moz-transition-property: background-position;
+    -moz-transition-duration: 30s;
+    -moz-transition-timing-function: linear;
+    -webkit-transition-property: background-position;
+    -webkit-transition-duration: 30s;
+    -webkit-transition-timing-function: linear;
+    -o-transition-property: background-position;
+    -o-transition-duration: 30s;
+    -o-transition-timing-function: linear;
+    transition-property: background-position;
+    transition-duration: 30s;
+    transition-timing-function: linear;
+    background-position: -5400px 0, -4600px 0, -3800px 0, -3000px 0;
+}
+@-webkit-keyframes colors {
+    0% {background-color: #fff;}
+    15% {background-color: #00A3C8;}
+    30% {background-color: #EFFD44;}
+    45% {background-color: #00A3C8;}
+    60% {background-color: #EFFD44;}
+    75% {background-color: #00A3C8;}
+    90% {background-color: #EFFD44;}
+    100% {background-color: #00A3C8;}
+}
+.border,.rain{
+    -webkit-animation-direction: normal;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: colors;
+    -webkit-animation-timing-function: ease;
+}
+.rain img{
+    border-radius: 15px;
+    width: 108px;
+    height: 107px;
+    margin-left: -3px;
+    margin-top: -3px;
+}
