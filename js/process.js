@@ -22,16 +22,17 @@ timer12 = setTimeout(function () {
 }, 500);
 
 timer22 = setTimeout(function () {
-    $('#page2-text').removeClass('page2-text');
+    $('#page2-text').removeClass('page2-textc');
+    alert("1");
 }, 1500);
 
 timer32 = setTimeout(function () {
-    $('#page2-left').removeClass('page2-left');
+    $('#page2-left').removeClass('page2-leftc'); alert("2");
 }, 2500);
 
 timer42 = setTimeout(function () {
-    $('#page2-right').removeClass('page2-right');
-}, 4000);
+    $('#page2-right').removeClass('page2-rightc'); alert("3");
+}, 2500);
 /*page2*/
 
 /*page3*/

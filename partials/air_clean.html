@@ -5,7 +5,7 @@
             <h2>Super Clean Air</h2>
         </div>
         
-        <div id="page6-text">
+        <div id="page6-text" class="page6-text">
             <p>The Powerful Cooling Operation boosts airflow to maximum volume for a 20-minute period. This function is simply activated by pushing the POWERFUL button on the remote controller. So now when you come home on a hot day, a powerful airflow will always be right at your fingertips.</p>
         </div>
 
@@ -20,3 +20,24 @@
         </div>
     </div>
 </div>
+<script>
+    timer16 = setTimeout(function () {
+        $('#page6-logo').removeClass('page6-logo');
+    }, 1000);
+
+    timer26 = setTimeout(function () {
+        $('#page6-text').removeClass('page6-text');
+    }, 2000);
+
+    timer36 = setTimeout(function () {
+        $('#page6-content').removeClass('page6-content');
+    }, 3000);
+
+    timer46 = setTimeout(function () {
+        $('#image1').removeClass('image1');
+    }, 4000);
+
+    timer56 = setTimeout(function () {
+        $('#image2').removeClass('image2');
+    }, 4000);
+</script>

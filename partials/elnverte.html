@@ -15,7 +15,24 @@
 
         <div id="page2-right" class="page2-right slideLeft" style=" float: right; width: 60%;">
             <img src="img/2/img2-3-2.png"><br>
-            <img src="img/2/img2-2.png">
+            <img src="img/2/img2-2.png" style="margin-left:50px; width:410px ">
         </div>
     </div>
 </div>
+<script>
+    timer12 = setTimeout(function () {
+        $('#page2-logo').removeClass('page2-logo');
+    }, 500);
+
+    timer22 = setTimeout(function () {
+        $('#page2-text').removeClass('page2-text');
+    }, 1500);
+
+    timer32 = setTimeout(function () {
+        $('#page2-left').removeClass('page2-left'); 
+    }, 2500);
+
+    timer42 = setTimeout(function () {
+        $('#page2-right').removeClass('page2-right'); 
+    }, 2500);
+</script>

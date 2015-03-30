@@ -6042,7 +6042,7 @@ label {
 
 .content{
   float:right; 
-  width:1375px; 
+  width:1370px; 
   min-height:1000px;
 }
 
@@ -6116,7 +6116,7 @@ label {
    display: none;
 }
 
-.page2-logo, .page2-text, .page2-left, .page2-right{
+.page2-logo, .page2-textc, .page2-leftc, .page2-rightc{
         display: none;
     }
 
