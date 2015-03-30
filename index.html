@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Daikin</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, user-scalable=no, maximum-scale=1, minimum-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
+  <link rel="stylesheet" href="css/app.css"/>
+  <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+  <!--animation style-->  
+  <link rel="stylesheet" href="css/animations.css"/>
+  <!--print style-->
+  <link rel="stylesheet" href="css/print.css" media="print" />    
+</head>
+<body class="{{controller}}">
+  <!-- controller div print -->
+  <div class="container" id="container">
+      <div class="header-top">
+          <div class="daikin-logo">
+              <div class="logo-wrapper">
+                  <a href="javascript:void(0)"><img class="logo" src="img/logo.png" alt="daikin"></a>
+              </div>
+          </div>
+      </div>
+      <div class="content">
+        <div class="main-wrapper">
+          <div class="main" ng-view>
+
+          </div>
+
+          <div class="gridlines">
+          </div>
+        </div>
+        
+    </div>
+  </div><!--end controller div print-->
+
+  <!-- div icon canvas -->
+
+  <div class="side">
+      <div class="bubble-wrapper">
+        <div class="bubble-top-gutter">
+        </div>
+        <div class="bubble">
+          <div class="height-wrapper block">
+            <div class="centered bubble-content" ng-bind-html="bubbleText | trusted">
+            </div>
+          </div>
+        </div>
+        <div class="bubble-bottom-gutter">
+        </div>
+      </div>
+      <div class="mascot">
+        <canvas class="mascot-img" width="320" height="480" />
+      </div>
+      <div class="navigation">
+        <div class="back-wrapper button-wrapper">
+          <button class="back round-button" ng-disabled="backDisabled" ng-click="back()">
+          <div class="button-content">
+            <span class="icon-arrow-left"></span>
+            <div class="button-text">back</div>
+            </div>
+          </button>
+        </div>
+        <div class="next-wrapper button-wrapper">
+          <button class="next round-button" ng-disabled="nextDisabled" ng-click="next()">
+            <div class="button-content">
+              <span class="icon-arrow-right"></span>
+              <div class="button-text">next</div>
+              </div>
+          </button>
+        </div>
+
+        <br>
+        <div class="back-wrapper button-wrapper">
+          <button class="back round-button" ng-disabled="backDisabled" ng-click="">
+          <div class="button-content">
+            <img src="img/model_icon.png">
+            <div class="button-text">model page</div>
+            </div>
+          </button>
+        </div>
+        <div class="next-wrapper button-wrapper">
+          <button class="next round-button" ng-disabled="nextDisabled" ng-click=""  onclick="printContent('container')" >
+            <div class="button-content">
+              <img src="img/print_icon.png">
+              <div class="button-text">print</div>
+              </div>
+          </button>
+        </div>
+
+      </div>
+    </div><!-- end div canvas print -->    
+
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+   <script type="text/javascript" charset="utf-8" src="js/edge.5.0.0.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/hammer.min.js"></script>
+  <script src="js/typed.js"></script>
+  <script src="js/jquery.ui.touch-punch.min.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="js/angular-animate.min.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="js/three.min.js"></script>
+  <script src="js/ThreeCSG.js"></script>
+  <script src="js/OrbitControls.js"></script>
+  <script src="js/spine.js"></script>
+  <script src="js/turbulenzengine.js"></script>
+  <script src="js/graphicsdevice.js"></script>
+  <script src="js/draw2d.js"></script>
+  <script src="js/SpriteBatch.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/min/directives-min.js"></script>
+  <!--print script-->
+  <script src="js/print.js"></script>
+  <!--process script-->
+  <script src="js/process.js"></script>
+</body>
+</html>
