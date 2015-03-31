@@ -17,83 +17,81 @@
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
   <!--animation style-->  
   <link rel="stylesheet" href="css/animations.css"/>
-  <!--print + style style-->
-  <!-- <link rel="stylesheet" href="css/print.css" media="print" /> -->
   <link rel="stylesheet" href="css/style.css"/>
+  <style type="text/css" media="print">
+      @page {
+          size: A4 landscape;
+      }
 
-  <style type="text/css"media="print">
-    @page { 
-      size: A4 landscape;
-    }
-    .header-top{
-      float: left;
-      width: 10%;
-    }
+      .header-top{
+          float: left;
+          width: 10%;
+      }
 
-    .header-top img{
-      float: left;
-      margin-left: 50px;
-    }
+      .header-top img{
+          float: left;
+          margin-left: 50px;
+      }
 
-    .main-wrapper{
-      float: right;
-      width: 90%;
-      margin-top: -160px;
-      /*margin-right: 50px;*/
-    }
+      .main-wrapper{
+          float: right;
+          width: 90%;
+          margin-top: -170px; /*-160*/
+          /*margin-right: 50px;*/
+      }
 
-    .main-wrapper .main{
-      float: left;
-      width: 100%;
-    }
+      .main-wrapper .main{
+          float: left;
+          width: 100%;
+      }
 
-    .header-page{
-      float: left;
-      width: 70%;
-      margin-left: 200px;
-      margin-right: 150px;
-    } 
-    #div-center{
-      float: left;
-      width: 70%;
-      margin-left: 200px;
-      margin-right: 150px;
-    }
+      .header-page{
+          float: left;
+          width: 70%;
+          margin-left: 200px;
+          margin-right: 150px;
+      }
+      #div-center{
+          float: left;
+          width: 70%;
+          margin-left: 200px;
+          margin-right: 150px;
+      }
 
-    #div-center p{
-      font-size: 18px;
-      line-height: 25px;
-    }
+      #div-center p{
+          font-size: 18px;
+          line-height: 25px;
+      }
 
-    #div-content{
-      float: left;
-      margin-left: 200px;
-      margin-right: 150px;
-    }
+      #div-content{
+          float: left;
+          margin-left: 200px;
+          margin-right: 150px;
+      }
 
-    #div-content #div-content-1{
-      float: left;
-      width: 400px;
-      position: absolute;
-    }
+      #div-content #div-content-1{
+          float: left;
+          width: 400px;
+          position: absolute;
+      }
 
-    #div-content #div-content-2{
-      float: right;
-      width: 500px;
-      position: absolute;
-    }
+      #div-content #div-content-2{
+          float: right;
+          width: 500px;
+          position: absolute;
+      }
 
-    #div-content #div-content-1 img{
-      float: left;
-      margin-left: -470px;
-      margin-top: 250px;
-    }
-    
-    #div-content #div-content-2 img{
-      float: left;
-      margin-left: 470px;
-      margin-top: 250px;
-    }
+      #div-content #div-content-1 img{
+          float: left;
+          margin-left: -470px;
+          margin-top: 250px;
+      }
+
+      #div-content #div-content-2 img{
+          float: left;
+          margin-left: 470px;
+          margin-top: 250px;
+      }
   </style>
 </head>
 <body class="{{controller}}">
@@ -180,7 +178,7 @@
   <script type="text/javascript" src="js/jquery.js"></script>
    <script type="text/javascript" charset="utf-8" src="js/edge.5.0.0.min.js"></script>
   <script src="js/jquery-ui.min.js"></script>
-  <script src="js/hammer.min.js"></script>
+
   <script src="js/typed.js"></script>
   <script src="js/jquery.ui.touch-punch.min.js"></script>
   <script src="bower_components/angular/angular.js"></script>

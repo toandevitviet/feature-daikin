@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="641050c4-6918-41d6-8112-9f33c833a05d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/feature-daikin.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="E:\DATA\WEB\Run\htdocs\feature-daikin\css\print.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\DATA\WEB\Run\htdocs\feature-daikin\img\1\img1-2.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\DATA\WEB\Run\htdocs\feature-daikin\img\1\img1-3.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\DATA\WEB\Run\htdocs\feature-daikin\img\1\img1-4.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\DATA\WEB\Run\htdocs\feature-daikin\img\1\img1-5.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/.gitkeep" afterPath="$PROJECT_DIR$/css/.gitkeep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/.gitkeep" afterPath="$PROJECT_DIR$/img/.gitkeep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/.gitkeep" afterPath="$PROJECT_DIR$/partials/.gitkeep" />
@@ -329,6 +327,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/.sass-cache/d01fd0428ab1e2332ef1ff4d61d1d65026fdf52e/app.scssc" afterPath="$PROJECT_DIR$/sass/.sass-cache/d01fd0428ab1e2332ef1ff4d61d1d65026fdf52e/app.scssc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/apple-touch-icon-precomposed.png" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/apple-touch-icon-precomposed.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/refills/source/images/background.png" afterPath="$PROJECT_DIR$/bower_components/refills/source/images/background.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animation-test/bg.jpg" afterPath="$PROJECT_DIR$/animation-test/bg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bg.jpg" afterPath="$PROJECT_DIR$/img/bg.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/refills/source/images/cat.png" afterPath="$PROJECT_DIR$/bower_components/refills/source/images/cat.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/favicon.ico" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/favicon.ico" />
@@ -340,11 +339,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/icomoon.ttf" afterPath="$PROJECT_DIR$/fonts/icomoon.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/icomoon.woff" afterPath="$PROJECT_DIR$/fonts/icomoon.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/1/img1-1.png" afterPath="$PROJECT_DIR$/img/1/img1-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/1/img1-2.png" afterPath="$PROJECT_DIR$/img/1/img1-2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/1/img1-3.png" afterPath="$PROJECT_DIR$/img/1/img1-3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/1/img1-4.png" afterPath="$PROJECT_DIR$/img/1/img1-4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/1/img1-5.png" afterPath="$PROJECT_DIR$/img/1/img1-5.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/1/img1-6.png" afterPath="$PROJECT_DIR$/img/1/img1-6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animation-test/img2-1.png" afterPath="$PROJECT_DIR$/animation-test/img2-1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/2/img2-1.png" afterPath="$PROJECT_DIR$/img/2/img2-1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/2/img2-2.png" afterPath="$PROJECT_DIR$/img/2/img2-2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/2/img2-3-1.png" afterPath="$PROJECT_DIR$/img/2/img2-3-1.png" />
@@ -352,6 +348,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/2/img2-3.png" afterPath="$PROJECT_DIR$/img/2/img2-3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/3/img3-1.png" afterPath="$PROJECT_DIR$/img/3/img3-1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/3/img3-3.png" afterPath="$PROJECT_DIR$/img/3/img3-3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animation-test/img3-4.png" afterPath="$PROJECT_DIR$/animation-test/img3-4.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/3/img3-4.png" afterPath="$PROJECT_DIR$/img/3/img3-4.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/3/img3-5.png" afterPath="$PROJECT_DIR$/img/3/img3-5.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/3/img3-6.png" afterPath="$PROJECT_DIR$/img/3/img3-6.png" />
@@ -420,6 +417,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/img/.gitignore" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/img/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/refills/.gitignore" afterPath="$PROJECT_DIR$/bower_components/refills/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/.htaccess" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/404.html" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/404.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/CHANGELOG.md" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/CHANGELOG.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/refills/source/CNAME" afterPath="$PROJECT_DIR$/bower_components/refills/source/CNAME" />
@@ -866,8 +864,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/draw2d.js" afterPath="$PROJECT_DIR$/js/draw2d.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/edge.5.0.0.min.js" afterPath="$PROJECT_DIR$/js/edge.5.0.0.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/elnverte.html" afterPath="$PROJECT_DIR$/partials/elnverte.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/doc/extend.md" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/doc/extend.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/doc/faq.md" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/doc/faq.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/feature-daikin.iml" afterPath="$PROJECT_DIR$/.idea/feature-daikin.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/filters.js" afterPath="$PROJECT_DIR$/js/filters.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/graphicsdevice.js" afterPath="$PROJECT_DIR$/js/graphicsdevice.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/hammer.min.js" afterPath="$PROJECT_DIR$/js/hammer.min.js" />
@@ -889,13 +889,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/doc/js.md" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/doc/js.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/refills/source/layouts/layout.erb" afterPath="$PROJECT_DIR$/bower_components/refills/source/layouts/layout.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/leaf_edge.js" afterPath="$PROJECT_DIR$/leaf_edge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animation-test/left-right.html" afterPath="$PROJECT_DIR$/animation-test/left-right.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/refills/lib/refills/list_generator.rb" afterPath="$PROJECT_DIR$/bower_components/refills/lib/refills/list_generator.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/animation-test/logo.html" afterPath="$PROJECT_DIR$/animation-test/logo.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/css/main.css" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/js/main.js" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/doc/misc.md" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/doc/misc.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/missing.html" afterPath="$PROJECT_DIR$/missing.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/js/vendor/min/modernizr-2.6.2.min-min.js" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/js/vendor/min/modernizr-2.6.2.min-min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/css/normalize.css" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/css/normalize.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/refills/source/stylesheets/normalize.css" afterPath="$PROJECT_DIR$/bower_components/refills/source/stylesheets/normalize.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/orbit-control.js" afterPath="$PROJECT_DIR$/js/orbit-control.js" />
@@ -903,7 +907,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/pichon.atlas" afterPath="$PROJECT_DIR$/img/pichon.atlas" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/pichon.json" afterPath="$PROJECT_DIR$/img/pichon.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/js/plugins.js" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/js/plugins.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/print.css" afterPath="$PROJECT_DIR$/css/print.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/print.js" afterPath="$PROJECT_DIR$/js/print.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/refills/source/vendor/stylesheets/prism.css" afterPath="$PROJECT_DIR$/bower_components/refills/source/vendor/stylesheets/prism.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/refills/source/vendor/javascripts/prism.js" afterPath="$PROJECT_DIR$/bower_components/refills/source/vendor/javascripts/prism.js" />
@@ -913,11 +916,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/refills/lib/refills.rb" afterPath="$PROJECT_DIR$/bower_components/refills/lib/refills.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/robots.txt" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/robots.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/saving_energy.html" afterPath="$PROJECT_DIR$/partials/saving_energy.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/selection.json" afterPath="$PROJECT_DIR$/fonts/selection.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services.js" afterPath="$PROJECT_DIR$/js/services.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/slider.js" afterPath="$PROJECT_DIR$/js/slider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/refills/source/vendor/javascripts/smooth-scroll.js" afterPath="$PROJECT_DIR$/bower_components/refills/source/vendor/javascripts/smooth-scroll.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/spine.js" afterPath="$PROJECT_DIR$/js/spine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/three.min.js" afterPath="$PROJECT_DIR$/js/three.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/titilliumweb-regular-webfont.svg" afterPath="$PROJECT_DIR$/fonts/titilliumweb-regular-webfont.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/triangle.svg" afterPath="$PROJECT_DIR$/img/triangle.svg" />
@@ -925,8 +930,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/typed.js" afterPath="$PROJECT_DIR$/js/typed.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fonts/ubuntu-regular-webfont.svg" afterPath="$PROJECT_DIR$/fonts/ubuntu-regular-webfont.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/html5-boilerplate/doc/usage.md" afterPath="$PROJECT_DIR$/bower_components/html5-boilerplate/doc/usage.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/refills/lib/refills/version.rb" afterPath="$PROJECT_DIR$/bower_components/refills/lib/refills/version.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/refills/source/stylesheets/.sass-cache/7b963f7f4dc44c7eaad58bd6c1897da558e16f47/vertical-tabs.scssc" afterPath="$PROJECT_DIR$/bower_components/refills/source/stylesheets/.sass-cache/7b963f7f4dc44c7eaad58bd6c1897da558e16f47/vertical-tabs.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="feature-daikin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -952,27 +959,27 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="16" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.0" vertical-offset="788" max-vertical-offset="1853">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/app.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6256" column="0" selection-start="158711" selection-end="158711" vertical-scroll-proportion="-11.2" vertical-offset="106072" max-vertical-offset="108358">
+            <state line="130" column="40" selection-start="3441" selection-end="3441" vertical-scroll-proportion="0.0" vertical-offset="1753" max-vertical-offset="2346">
               <folding>
-                <element signature="e#12043#14392#2" expanded="true" />
+                <marker date="1427811733052" expanded="true" signature="2781:2936" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="intelligent_eye.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/intelligent_eye.html">
+      <file leaf-file-name="app.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="70" selection-start="271" selection-end="271" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="1275">
+            <state line="6283" column="0" selection-start="159074" selection-end="159361" vertical-scroll-proportion="0.8745318" vertical-offset="106344" max-vertical-offset="108528">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="52" selection-start="1185" selection-end="1185" vertical-scroll-proportion="37.26923" vertical-offset="1275" max-vertical-offset="3604">
               <folding />
             </state>
           </provider>
@@ -981,7 +988,7 @@
       <file leaf-file-name="airflow_powerful.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/airflow_powerful.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="139" selection-end="314" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="646">
+            <state line="22" column="0" selection-start="948" selection-end="948" vertical-scroll-proportion="-12.423077" vertical-offset="51" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -990,8 +997,28 @@
       <file leaf-file-name="cooling_powerful.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/cooling_powerful.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="309" selection-end="315" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="799">
+            <state line="20" column="46" selection-start="1037" selection-end="1050" vertical-scroll-proportion="-12.153846" vertical-offset="24" max-vertical-offset="833">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="air_clean.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/partials/air_clean.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="13" selection-start="1087" selection-end="1550" vertical-scroll-proportion="-17.653847" vertical-offset="255" max-vertical-offset="833">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angular-animate.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/angular-animate.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -999,25 +1026,7 @@
       <file leaf-file-name="elnverte.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/elnverte.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="139" selection-end="314" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="799">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="air_clean.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/partials/air_clean.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="36" selection-start="337" selection-end="337" vertical-scroll-proportion="0.25515947" vertical-offset="0" max-vertical-offset="884">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="airflow_3d.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/partials/airflow_3d.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="69" selection-start="270" selection-end="270" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="850">
+            <state line="33" column="13" selection-start="1444" selection-end="1546" vertical-scroll-proportion="-9.807693" vertical-offset="306" max-vertical-offset="850">
               <folding />
             </state>
           </provider>
@@ -1026,7 +1035,7 @@
       <file leaf-file-name="quiet_super.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/quiet_super.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="12" selection-start="139" selection-end="315" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="901">
+            <state line="48" column="13" selection-start="1904" selection-end="1904" vertical-scroll-proportion="-16.423077" vertical-offset="389" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -1035,8 +1044,10 @@
       <file leaf-file-name="saving_energy.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partials/saving_energy.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="315" selection-end="315" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="731">
-              <folding />
+            <state line="15" column="59" selection-start="796" selection-end="796" vertical-scroll-proportion="-8.076923" vertical-offset="45" max-vertical-offset="714">
+              <folding>
+                <element signature="n#class#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1059,18 +1070,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/process.js" />
-        <option value="$PROJECT_DIR$/css/app.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/partials/air_clean.html" />
+        <option value="$PROJECT_DIR$/partials/airflow_3d.html" />
+        <option value="$PROJECT_DIR$/css/print.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/partials/elnverte.html" />
+        <option value="$PROJECT_DIR$/partials/intelligent_eye.html" />
         <option value="$PROJECT_DIR$/partials/airflow_powerful.html" />
         <option value="$PROJECT_DIR$/partials/cooling_powerful.html" />
-        <option value="$PROJECT_DIR$/partials/elnverte.html" />
-        <option value="$PROJECT_DIR$/partials/quiet_super.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/partials/air_clean.html" />
         <option value="$PROJECT_DIR$/partials/saving_energy.html" />
-        <option value="$PROJECT_DIR$/partials/intelligent_eye.html" />
-        <option value="$PROJECT_DIR$/partials/airflow_3d.html" />
+        <option value="$PROJECT_DIR$/partials/quiet_super.html" />
+        <option value="$PROJECT_DIR$/css/app.css" />
       </list>
     </option>
   </component>
@@ -1149,20 +1161,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feature-daikin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feature-daikin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1174,6 +1172,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -1204,24 +1203,24 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15592971" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20790629" sideWeight="0.6704362" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -1236,88 +1235,118 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="1206" selection-end="1206" vertical-scroll-proportion="36.615383" vertical-offset="1275" max-vertical-offset="2363">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/process.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="50" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+        <state line="26" column="50" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="200" column="23" selection-start="4812" selection-end="4812" vertical-scroll-proportion="0.3322091" vertical-offset="3203" max-vertical-offset="8228">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/app.css">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6256" column="0" selection-start="158711" selection-end="158711" vertical-scroll-proportion="-11.2" vertical-offset="106072" max-vertical-offset="108358">
-          <folding>
-            <element signature="e#12043#14392#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="16" selection-start="1313" selection-end="1313" vertical-scroll-proportion="0.0" vertical-offset="788" max-vertical-offset="1853">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/quiet_super.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="139" selection-end="315" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/saving_energy.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="315" selection-end="315" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="731">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/intelligent_eye.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="70" selection-start="271" selection-end="271" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="1275">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/elnverte.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="139" selection-end="314" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/cooling_powerful.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="309" selection-end="315" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/airflow_powerful.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="139" selection-end="314" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="646">
+        <state line="198" column="22" selection-start="4044" selection-end="4044" vertical-scroll-proportion="0.3322091" vertical-offset="3169" max-vertical-offset="3859">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/airflow_3d.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="69" selection-start="270" selection-end="270" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="850">
+        <state line="18" column="42" selection-start="1019" selection-end="1019" vertical-scroll-proportion="-7.8461537" vertical-offset="102" max-vertical-offset="850">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/airflow_powerful.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="948" selection-end="948" vertical-scroll-proportion="-12.423077" vertical-offset="51" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/intelligent_eye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="75" selection-start="1454" selection-end="1454" vertical-scroll-proportion="0.7335835" vertical-offset="0" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/angular-animate.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="1104" selection-end="1104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/embed.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="11" selection-start="975" selection-end="1119" vertical-scroll-proportion="0.86713284" vertical-offset="269" max-vertical-offset="11271">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="52" selection-start="1185" selection-end="1185" vertical-scroll-proportion="37.26923" vertical-offset="1275" max-vertical-offset="3604">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/cooling_powerful.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="46" selection-start="1037" selection-end="1050" vertical-scroll-proportion="-12.153846" vertical-offset="24" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/elnverte.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="13" selection-start="1444" selection-end="1546" vertical-scroll-proportion="-9.807693" vertical-offset="306" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/saving_energy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="59" selection-start="796" selection-end="796" vertical-scroll-proportion="-8.076923" vertical-offset="45" max-vertical-offset="714">
+          <folding>
+            <element signature="n#class#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="40" selection-start="3441" selection-end="3441" vertical-scroll-proportion="0.0" vertical-offset="1753" max-vertical-offset="2346">
+          <folding>
+            <marker date="1427811733052" expanded="true" signature="2781:2936" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/air_clean.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="36" selection-start="337" selection-end="337" vertical-scroll-proportion="0.25515947" vertical-offset="0" max-vertical-offset="884">
+        <state line="42" column="13" selection-start="1087" selection-end="1550" vertical-scroll-proportion="-17.653847" vertical-offset="255" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/partials/quiet_super.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="13" selection-start="1904" selection-end="1904" vertical-scroll-proportion="-16.423077" vertical-offset="389" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6283" column="0" selection-start="159074" selection-end="159361" vertical-scroll-proportion="0.8745318" vertical-offset="106344" max-vertical-offset="108528">
           <folding />
         </state>
       </provider>

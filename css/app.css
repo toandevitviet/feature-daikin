@@ -6042,8 +6042,8 @@ label {
 
 .content{
   float:right; 
-  width:1370px; /*1060px*/
-  min-height:900px; /*900*/
+  width:1060px; /*1370*/
+  min-height:900px;
 }
 
 .header-top{
@@ -6133,7 +6133,8 @@ ul li {
     }
 
 li img {
-        width: 160px;
+        width: 180px;
+        max-height: 230px;
 }
 li.li-3 img-is, li.li-5 img-is {
         width: 28px;
@@ -6366,4 +6367,13 @@ h3.page8-h {
         margin-left:0%;
         width:100%;
       }
+    }
+
+    .content-title{
+        display: none;
+    }
+
+    #content-title {
+        text-align: center;
+        font-size: 20px;
     }

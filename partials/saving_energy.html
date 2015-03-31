@@ -8,30 +8,29 @@
             </div>
             <h2>Super Energy Saving</h2>
         </div>
-        
-        <div id="page7-text" class="page7-text">
+
+        <div class="center-page" id="div-center">
             <p>The Powerful Cooling Operation boosts airflow to maximum volume for a 20-minute period. This function is simply activated by pushing the POWERFUL button on the remote controller. So now when you come home on a hot day, a powerful airflow will always be right at your fingertips.</p>
         </div>
 
-        <div id="page7-content" class="page7-content">
-            <img id="image1" class="image1 slideRight" src="img/7/img7-2.png">
+        <div id="content-title" class="content-title blink"><h3>How to read the Energy label</h3></div>
+
+        <div class="content-page" id="div-content">
+            <img id="image1"  src="img/7/img7-2.png">
         </div>    
     </div>
 </div>
 <script>
-    timer17 = setTimeout(function () {
-        $('#page7-logo').removeClass('page7-logo');
+    timer1 = setTimeout(function () {
+        $('#div-center').removeClass('center-page');
+    }, 500);
+
+    timer22 = setTimeout(function () {
+        $('#content-title').removeClass('content-title');
     }, 1000);
 
-    timer27 = setTimeout(function () {
-        $('#page7-text').removeClass('page7-text');
+    timer2 = setTimeout(function () {
+        $('#div-content').removeClass('content-page');
+        left();
     }, 2000);
-
-    timer37 = setTimeout(function () {
-        $('#page7-content').removeClass('page7-content');
-    }, 3000);
-
-    timer47 = setTimeout(function () {
-        $('#image1').removeClass('image1');
-    }, 4000);   
 </script>

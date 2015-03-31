@@ -9,34 +9,37 @@
             <h2>Inverter Powerful Cooling System</h2>
         </div>
         
-        <div id="page2-text" class="page2-text">
+        <div class="center-page" id="div-center">
             <p>Build a cool environment with Daikin inverters. With inverter powerful operation, it boosts cooling performance for a 20-minute period when you first turn on the aircon or when you want to change temperature. Our revolutionary technology allows precise temperature control that constantly readjusts itself to the environment and changing occupancy. It is powerful and energy efficient while providing a comfortable environment in every room.</p>
         </div>
 
-        <div id="page2-left" class="page2-left slideRight" style=" float: left; width: 40%;">
-            <img src="img/2/img2-3-1.png">
-        </div>
-
-        <div id="page2-right" class="page2-right slideLeft" style=" float: right; width: 60%;">
-            <img src="img/2/img2-3-2.png"><br>
-            <img src="img/2/img2-2.png" style="margin-left:50px; width:410px ">
+        <div class="content-page" id="div-content">
+            <div class="left-content" id="div-content-1" >
+                <img src="img/2/img2-3-1.png">
+            </div>
+            <div class="right-content" id="div-content-2">
+                <img src="img/2/img2-3-2.png"><br>
+                <img src="img/2/img2-2.png"> <!--light position-->
+            </div>
         </div>
     </div>
 </div>
 <script>
-    timer12 = setTimeout(function () {
-        $('#page2-logo').removeClass('page2-logo');
+    timer1 = setTimeout(function () {
+        $('#div-center').removeClass('center-page');
     }, 500);
 
-    timer22 = setTimeout(function () {
-        $('#page2-text').removeClass('page2-text');
-    }, 1500);
+    timer2 = setTimeout(function () {
+        $('#div-content').removeClass('content-page');
+    }, 1000);
 
     timer32 = setTimeout(function () {
-        $('#page2-left').removeClass('page2-left'); 
-    }, 2500);
+        $('#div-content-1').removeClass('left-content');
+        left();
+    }, 2000);
 
     timer42 = setTimeout(function () {
-        $('#page2-right').removeClass('page2-right'); 
-    }, 2500);
+        $('#div-content-2').removeClass('right-content');
+        right();
+    }, 2000);
 </script>

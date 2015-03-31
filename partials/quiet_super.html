@@ -8,8 +8,8 @@
             </div>
             <h2>Super Quiet Operation</h2>
         </div>
-        
-        <div id="page8-text">
+
+        <div class="center-page" id="div-center">
             <p class="page8-p">Availability of different operations to cater to your needs: </p>
             <h3 class="page8-h">Indoor unit quiet operation</h3>
             <p class="page8-p">Indoor unit operation sound levels are decreased by 2 or 3 dB(A) with low setting fan speed</p>
@@ -19,30 +19,32 @@
             <p class="page8-p">Indoor unit operation sound levels are decreased by 2 or 3 dB(A) with low setting fan speed</p>
         </div>
 
-        <div id="page8-content" class="page8-content">
-            <img id="image1" class="image1 slideRight" src="img/8/img8-2.png">
-            <img id="image2" class="image2 slideLeft" src="img/8/img8-3.png">
+        <div class="content-page" id="div-content">
+            <div class="left-content" id="div-content-1" >
+                <img id="image1" src="img/8/img8-2.png">
+            </div>
+            <div class="right-content" id="div-content-2">
+                <img id="image2" src="img/8/img8-3.png">
+            </div>
         </div>
     </div>
 </div>
 <script>
-    timer18 = setTimeout(function () {
-        $('#page8-logo').removeClass('page8-logo');
+    timer1 = setTimeout(function () {
+        $('#div-center').removeClass('center-page');
+    }, 500);
+
+    timer2 = setTimeout(function () {
+        $('#div-content').removeClass('content-page');
     }, 1000);
 
-    timer28 = setTimeout(function () {
-        $('#page8-text').removeClass('page8-text');
+    timer32 = setTimeout(function () {
+        $('#div-content-1').removeClass('left-content');
+        left();
     }, 2000);
 
-    timer38 = setTimeout(function () {
-        $('#page8-content').removeClass('page8-content');
-    }, 3000);
-
-    timer48= setTimeout(function () {
-        $('#image1').removeClass('image1');
-    }, 3000);
-
-    timer58 = setTimeout(function () {
-        $('#image2').removeClass('image2');
-    }, 4000);
+    timer42 = setTimeout(function () {
+        $('#div-content-2').removeClass('right-content');
+        right();
+    }, 2000);
 </script>

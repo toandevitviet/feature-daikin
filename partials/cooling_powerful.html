@@ -8,35 +8,37 @@
             </div>
             <h2>Powerful Cooling Operation</h2>
         </div>
-        
-        <div id="page5-text">
+
+        <div class="center-page" id="div-center">
             <p>The Powerful Cooling Operation boosts airflow to maximum volume for a 20-minute period. This function is simply activated by pushing the POWERFUL button on the remote controller. So now when you come home on a hot day, a powerful airflow will always be right at your fingertips.</p>
         </div>
 
-        <div id="page5-content" class="page5-content">
-            <img id="image1" class="image1 slideLeft" src="img/5/img5-2.png">
-            <img id="image2" class="image2 slideRight" src="img/5/img5-3.png">
+        <div class="content-page" id="div-content">
+            <div class="left-content" id="div-content-1" >
+                <img id="image1" class="blink" src="img/5/img5-2.png">
+            </div>
+            <div class="right-content" id="div-content-2">
+                <img id="image2" class="blink" src="img/5/img5-3.png">
+            </div>
         </div>
     </div>
 </div>
 <script>
-    timer15 = setTimeout(function () {
-        $('#page5-logo').removeClass('page5-logo');
+    timer1 = setTimeout(function () {
+        $('#div-center').removeClass('center-page');
+    }, 500);
+
+    timer2 = setTimeout(function () {
+        $('#div-content').removeClass('content-page');
     }, 1000);
 
-    timer25 = setTimeout(function () {
-        $('#page5-text').removeClass('page5-text');
+    timer32 = setTimeout(function () {
+        $('#div-content-1').removeClass('left-content');
+        //left();
     }, 2000);
 
-    timer35 = setTimeout(function () {
-        $('#page5-content').removeClass('page5-content');
-    }, 3000);
-
-    timer45 = setTimeout(function () {
-        $('#image1').removeClass('image1');
-    }, 3000);
-
-    timer55 = setTimeout(function () {
-        $('#image2').removeClass('image2');
-    }, 4000);
+    timer42 = setTimeout(function () {
+        $('#div-content-2').removeClass('right-content');
+        //right();
+    }, 2000);
 </script>

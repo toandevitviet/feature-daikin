@@ -102,3 +102,31 @@
     margin-left: -3px;
     margin-top: -3px;
 }
+
+
+/*blink animation*/
+@keyframes blink {
+    0% { opacity: 0; }
+    20% { opacity: 0.2; }
+    40% { opacity: 0.4; }
+    60% { opacity: 0.6; }
+    80% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+@-webkit-keyframes blink {
+    0% { opacity: 0; }
+    20% { opacity: 0.2; }
+    40% { opacity: 0.4; }
+    60% { opacity: 0.6; }
+    80% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+.blink {
+    -webkit-animation: blink 0.5s linear infinite;
+    -moz-animation: blink 0.5s linear infinite;
+    -ms-animation: blink 0.5s linear infinite;
+    -o-animation: blink 0.5s linear infinite;
+    animation: blink 0.5s linear infinite;
+    -moz-animation-iteration-count: 6;
+    -webkit-animation-iteration-count: 6;
+}
