@@ -6042,8 +6042,8 @@ label {
 
 .content{
   float:right; 
-  width:1060px; /*1370*/
-  min-height:900px; /*1000*/
+  width:1370px; /*1060px*/
+  min-height:900px; /*900*/
 }
 
 .header-top{

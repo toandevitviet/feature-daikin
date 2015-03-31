@@ -12,13 +12,13 @@
 
 @-moz-keyframes slidein-left {
     0%   {left:0px; top:0px;}
-    50%  {left:600px; top:0px;}
+    50%  {left:700px; top:0px;}
     100% {left:0px; top:0px;}
 }
 
 @-webkit-keyframes slidein-left {
     0%   {left:0px; top:0px;}
-    50%  {left:600px; top:0px;}
+    50%  {left:700px; top:0px;}
     100% {left:0px; top:0px;}
 }
 
@@ -36,12 +36,12 @@
 
 @-moz-keyframes slidein-right{
     0%   {right:0px; top:0px;}
-    50%  {right:600px; top:0px;}
+    50%  {right:700px; top:0px;}
     100% {right:0px; top:0px;}
 }
 @-webkit-keyframes slidein-right{
     0%   {right:0px; top:0px;}
-    50%  {right:600px; top:0px;}
+    50%  {right:700px; top:0px;}
     100% {right:0px; top:0px;}
 }
 

@@ -3,9 +3,3 @@
 @page { 
 	size: A4 landscape;
 }
-
-@media print {
-	body {
-		font-size: 10pt;
-	}
-}
