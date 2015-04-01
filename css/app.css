@@ -6042,7 +6042,7 @@ label {
 
 .content{
   float:right; 
-  width:1060px; /*1370*/
+  width:1370px; /*1060*/
   min-height:900px;
 }
 
@@ -6127,14 +6127,14 @@ label {
 ul li {
     float: left;
     list-style: none;
-    width: 200px;
+    width: 235px;
     margin: 10p;
     padding: 10px;
     }
 
 li img {
-        width: 180px;
-        max-height: 230px;
+    width: 200px;
+    max-height: 310px;
 }
 li.li-3 img-is, li.li-5 img-is {
         width: 28px;
@@ -6376,4 +6376,8 @@ h3.page8-h {
     #content-title {
         text-align: center;
         font-size: 20px;
+    }
+
+    #div-center p.page8-p, #div-center h3.page8-h{
+      line-height: 10px !important;
     }
