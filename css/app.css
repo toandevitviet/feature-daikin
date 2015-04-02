@@ -4194,10 +4194,11 @@ html, html:active {
    also be of any width and height */ }
   .block .centered {
     position: relative;
-    top: 50%;
+    top: 35%;
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
-            transform: translateY(-50%); }
+            
+    transform: translateY(-50%); }
 
 .height-wrapper {
   height: 100%; }
@@ -4519,24 +4520,30 @@ button.quit {
 
 .bubble {
   margin: 0 auto;
-  background-color: #fdc851;
-  border-radius: 50%;
-  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5), 3px 3px 0 rgba(0, 0, 0, 0.1);
+  /* background-color: #fdc851; */
+  background: url(../img/img-mascot.png);
+  /* border-radius: 50%; */
+  /* box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.5), 3px 3px 0 rgba(0, 0, 0, 0.1); */
   color: #013743;
   font-size: 16px/25px;
   position: relative;
-  width: 220px;
+  width: 208px;
   min-height: 90%;  
-  height: 220px;
+  height: 291px;
   overflow-y: visible;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
   overflow: visible;
   text-align: center;
   -webkit-animation: fadeIn 1s;
-          animation: fadeIn 1s; }
+          animation: fadeIn 1s; 
+
+  text-shadow: 2px 1px 1px #004658;
+  font-size: 19px !important;
+  
+}
 
 .bubble-content {
-  padding: 10px 12px;
+  padding: 10px 13px;
   font-size: 1.4em;
   font-family: 'Rumpelstiltskin', Helvetica, Arial, sans-serif; }
 
@@ -4595,7 +4602,7 @@ button.quit {
   bottom: 0;
   z-index: 3; }
 
-.bubble:after, .bubble:before {
+/*.bubble:after, .bubble:before {
   border-bottom: 25px solid transparent;
   border-left: 25px solid #fdc851;
   bottom: -21px;
@@ -4606,7 +4613,7 @@ button.quit {
 .bubble:before {
   border-left: 25px solid rgba(0, 0, 0, 0.1);
   bottom: -24px;
-  right: 89px; }
+  right: 89px; }*/
 
 .button, .round-button {
   position: relative;

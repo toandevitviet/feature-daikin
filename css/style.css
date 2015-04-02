@@ -65,32 +65,32 @@
 .border.end,
 .rain.end{
     -moz-transition-property: background-position;
-    -moz-transition-duration: 30s;
+    -moz-transition-duration: 10s;
     -moz-transition-timing-function: linear;
     -webkit-transition-property: background-position;
-    -webkit-transition-duration: 30s;
+    -webkit-transition-duration: 10s;
     -webkit-transition-timing-function: linear;
     -o-transition-property: background-position;
-    -o-transition-duration: 30s;
+    -o-transition-duration: 10s;
     -o-transition-timing-function: linear;
     transition-property: background-position;
-    transition-duration: 30s;
+    transition-duration: 10s;
     transition-timing-function: linear;
     background-position: -5400px 0, -4600px 0, -3800px 0, -3000px 0;
 }
 @-webkit-keyframes colors {
     0% {background-color: #fff;}
-    15% {background-color: #00A3C8;}
-    30% {background-color: #EFFD44;}
-    45% {background-color: #00A3C8;}
-    60% {background-color: #EFFD44;}
-    75% {background-color: #00A3C8;}
-    90% {background-color: #EFFD44;}
+    15% {background-color: #77E8FF;}
+    30% {background-color: #51E0FF;}
+    45% {background-color: #2FDBFF;}
+    60% {background-color: #51E0FF;}
+    75% {background-color: #fff;}
+    90% {background-color: #77E8FF;}
     100% {background-color: #00A3C8;}
 }
 .border,.rain{
     -webkit-animation-direction: normal;
-    -webkit-animation-duration: 20s;
+    -webkit-animation-duration: 5s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-name: colors;
     -webkit-animation-timing-function: ease;
