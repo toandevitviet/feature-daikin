@@ -4436,6 +4436,7 @@ body {
   opacity: 0.75; }
 
 .mascot {
+  z-index: 300;
   min-height: 50%;
   max-height: 50%;
   height: 50%;
@@ -4468,7 +4469,7 @@ body {
   -webkit-animation-direction: alternate;
   animation-direction: alternate; }
   .mascot .mascot-img {
-    max-width: 100%; }
+    max-width: 103%; }
 
 .tools {
   min-height: 12.5%;
@@ -4503,7 +4504,10 @@ button.quit {
   max-height: 25%;
   height: 25%;
   overflow-y: visible; 
-  margin-top: 180px;
+  margin-top: 80px;
+  position: relative;
+  z-index: 400;
+  top: 100px;
 }
 
 .bubble-top-gutter {
@@ -4539,6 +4543,7 @@ button.quit {
 
   text-shadow: 2px 1px 1px #004658;
   font-size: 19px !important;
+  left: 40px;
   
 }
 
@@ -6048,12 +6053,12 @@ label {
 /*toanlm*/
 #container{
   float:left; 
-  width:85%;
+  width:82%;
 }
 
 .content{
   float:right; 
-  width:1370px; /*1060*/
+  width:1310px; /*1060*/
   min-height:900px;
 }
 
@@ -6064,7 +6069,7 @@ label {
 
 .side{
   float:right; 
-  width:15%;
+  width:18%;
   /*margin-top: 150px;*/
 }
 
@@ -6273,7 +6278,7 @@ h3.page8-h {
 
 #div-center, #page2-text, #page3-text, #page4-text, #page5-text, #page6-text, #page7-text, #page8-text {
     float: left;
-    margin: 10px 0px;
+    /*margin: 10px 0px;*/
 }
 
 #div-center p, #page2-text p, #page3-text p, #page4-text p, #page5-text p, #page6-text p, #page7-text p, #page8-text p{
