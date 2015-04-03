@@ -130,3 +130,4 @@
     -moz-animation-iteration-count: 6;
     -webkit-animation-iteration-count: 6;
 }
+#printable { display: none; }
