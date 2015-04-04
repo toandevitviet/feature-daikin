@@ -23,74 +23,66 @@
           size: A4 landscape;
           margin: 0.5cm;  
       }
-
-      #non-printable { display: none; }
-      #printable {position: relative; display: block;}      
-
+      #non-printable { 
+          display: none; 
+      }      
+      #printable {
+          position: relative; 
+          display: block;
+      }  
       .header-top{
           float: left;
-          width: 10%;
+          width: 7%;
+          margin-top: -50px;
       }
-
-      .header-top img#logo{
+      .header-top img.logo{
           float: left;
-          margin-left: 50px;
-          width: 80px;
-          height: 80px;
+          height: 70%;
       }
-
       .main-wrapper{
           float: right;
-          width: 90%;
-          margin-top: -50px; 
+          width: 93%;
+          margin-top: -50px;
+          margin-left: -100px;
       }
-
-      .main-wrapper .main{
+      .main-wrapper .height-wrapper-print{
           float: left;
           width: 100%;
-      }
-
-      .header-page1{
+      }      
+      /*content print page*/
+      .header-page-print{
           float: left;
-          width: 70%;
-          margin-left: 200px;
-          margin-right: 150px;
-      }
-
-      .header-page1 img{
           width: 90%;
-          height: 90%;
       }
-
-      .header-page1 h2{
-        font-size: 28px;
-      }
-
-
-      #div-center1{
+      .header-page-print img{
           float: left;
-          width: 70%;
-          margin-left: 180px;
-          margin-right: 150px;
       }
-
-      #div-center1 p{
+      .header-page-print h2{
+        float: left;
+        font-size: 28px;
+        margin-top: 34px;
+        margin-left: 15px;
+      }
+      #div-center-print{
+          float: left;
+          width: 90%;
+      }
+      #div-center-print p{
           font-size: 18px;
           line-height: 25px;
-          margin-top: -20px;
-          margin-left: 20px;
       }
-
-      #div-content1 #div-content-11{
+      #div-content-print{
           float: left;
-          margin-left: 50px;
+          width: 85%;
       }
-
-      #div-content1 #div-content-21{
+      #div-content-print #div-content-1-print{
+          float: left;
+          width: 45%;
+      }
+      #div-content-print #div-content-2-print{
           float: right;
-      }
-
-      
+          width: 45%;
+      }     
   </style>
 </head>
 <body class="{{controller}}">
@@ -158,7 +150,7 @@
           </button>
         </div>
         <div class="next-wrapper button-wrapper">
-          <button class="next round-button" ng-disabled="nextDisabled" ng-click=""  onclick="printContent('container')" >
+          <button class="next round-button" ng-disabled="nextDisabled" onclick="printContent('container')" >
             <div class="button-content">
               <img src="img/print_icon.png">
               <div class="button-text">print</div>
@@ -173,7 +165,6 @@
   <script type="text/javascript" src="js/jquery.js"></script>
    <script type="text/javascript" charset="utf-8" src="js/edge.5.0.0.min.js"></script>
   <script src="js/jquery-ui.min.js"></script>
-
   <script src="js/typed.js"></script>
   <script src="js/jquery.ui.touch-punch.min.js"></script>
   <script src="bower_components/angular/angular.js"></script>

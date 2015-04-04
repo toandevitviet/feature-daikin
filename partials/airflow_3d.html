@@ -22,30 +22,9 @@
         </div>
     </div>
 
-<script>
-    timer1 = setTimeout(function () {
-        $('#div-center').removeClass('center-page');
-    }, 500);
-
-    timer2 = setTimeout(function () {
-        $('#div-content').removeClass('content-page');
-    }, 1000);
-
-    timer3 = setTimeout(function () {
-        $('#div-content-1').removeClass('left-content');
-        left();
-    }, 2000);
-
-    timer4 = setTimeout(function () {
-        $('#div-content-2').removeClass('right-content');
-        right();
-    }, 2000);   
-</script>
-
-
-    <div id="printable" class="height-wrapper1 block full-wrapper1">
-        <div class="room-types1">
-            <div class="header-page1" id="div-header1">
+    <div id="printable" class="height-wrapper-print block full-wrapper-print">
+        <div class="room-types-print">
+            <div class="header-page-print" id="div-header-print">
                 <div class="rain">
                     <div class="border start">
                         <img id="logo" src="img/1/img1-1.png" alt="Daikin">
@@ -53,18 +32,37 @@
                 </div>
                 <h2>3D Airflow</h2>
             </div>
-            <div class="center-page1" id="div-center1">
+            <div class="center-page-print" id="div-center-print">
                 <p>Vertical Auto-Swing automatically moves the flaps up and down and Horizontal Auto-Swing automatically moves the louvres left and right. With the combination of both, you enjoy a 3D airflow where air is circulated to every part of the room for uniform cooling of even large spaces. </p>
             </div>
-            <div class="content-page1" id="div-content1">  
-                <div class="left-content1" id="div-content-11" >
+            <div class="content-page-print" id="div-content-print">  
+                <div class="left-content-print" id="div-content-1-print" >
                     <img src="img/1/left.png" style="margin-left: 60px;">               
                 </div>
-                <div class="right-content1" id="div-content-21">
+                <div class="right-content-print" id="div-content-2-print">
                   <img src="img/1/img1-6.png" style="margin-right: 80px;">
                 </div>
             </div>
         </div>
     </div>
 
+    <script>
+        timer1 = setTimeout(function () {
+            $('#div-center').removeClass('center-page');
+        }, 500);
+
+        timer2 = setTimeout(function () {
+            $('#div-content').removeClass('content-page');
+        }, 1000);
+
+        timer3 = setTimeout(function () {
+            $('#div-content-1').removeClass('left-content');
+            left();
+        }, 2000);
+
+        timer4 = setTimeout(function () {
+            $('#div-content-2').removeClass('right-content');
+            right();
+        }, 2000);   
+    </script>
 
