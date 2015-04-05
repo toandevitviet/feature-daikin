@@ -6128,7 +6128,9 @@ label {
 .right-content{
    display: none;
 }
-
+.light{
+  display: none;
+}
 .left-content{
    display: none;
 }
@@ -6397,4 +6399,13 @@ h3.page8-h {
 
     #div-center p.page8-p, #div-center h3.page8-h{
       line-height: 10px !important;
+    }
+
+
+    .page7wrap1_img1, .page7wrap1_img2{
+      display: none;
+    }
+
+    .page7wrap3_img1, .page7wrap3_img2, .page7wrap3_img3 {
+      display: none;
     }

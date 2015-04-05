@@ -10,7 +10,7 @@
         </div>
         
         <div class="center-page" id="div-center">
-            <p>Build a cool environment with Daikin inverters. With inverter powerful operation, it boosts cooling performance for a 20-minute period when you first turn on the aircon or when you want to change temperature. Our revolutionary technology allows precise temperature control that constantly readjusts itself to the environment and changing occupancy. It is powerful and energy efficient while providing a comfortable environment in every room.</p>
+            <p class="pullUp">Build a cool environment with Daikin inverters. With inverter powerful operation, it boosts cooling performance for a 20-minute period when you first turn on the aircon or when you want to change temperature. Our revolutionary technology allows precise temperature control that constantly readjusts itself to the environment and changing occupancy. It is powerful and energy efficient while providing a comfortable environment in every room.</p>
         </div>
 
         <div class="content-page" id="div-content">
@@ -19,7 +19,7 @@
             </div>
             <div class="right-content" id="div-content-2">
                 <img src="img/2/img2-3-2.png"><br>
-                <img src="img/2/img2-2.png"> <!--light position-->
+                <img id="light" class="light blink" src="img/2/img2-2.png"> <!--light position-->
             </div>
         </div>
     </div>
@@ -71,4 +71,8 @@
         $('#div-content-2').removeClass('right-content');
         right();
     }, 2000);
+    timer43 = setTimeout(function () {
+        $('#light').removeClass('light');
+        right();
+    }, 7000);
 </script>

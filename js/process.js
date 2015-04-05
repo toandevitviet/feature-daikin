@@ -31,3 +31,48 @@ function right() {
 
     e.className = "slidein-right";
 }
+
+function rightpage1() {
+    var e = document.getElementById("li-1");
+    e.addEventListener("animationstart", listener, false);
+    e.addEventListener("animationend", listener, false);
+    e.addEventListener("animationiteration", listener, false);
+
+    e.className = "slidein-right";
+}
+
+function rightpage2() {
+    var e = document.getElementById("li-2");
+    e.addEventListener("animationstart", listener, false);
+    e.addEventListener("animationend", listener, false);
+    e.addEventListener("animationiteration", listener, false);
+
+    e.className = "slidein-right";
+}
+
+function rightpage4() {
+    var e = document.getElementById("li-4");
+    e.addEventListener("animationstart", listener, false);
+    e.addEventListener("animationend", listener, false);
+    e.addEventListener("animationiteration", listener, false);
+
+    e.className = "slidein-right";
+}
+
+function rightpage6() {
+    var e = document.getElementById("li-6");
+    e.addEventListener("animationstart", listener, false);
+    e.addEventListener("animationend", listener, false);
+    e.addEventListener("animationiteration", listener, false);
+
+    e.className = "slidein-right";
+}
+
+function rightpage7() {
+    var e = document.getElementById("li-7");
+    e.addEventListener("animationstart", listener, false);
+    e.addEventListener("animationend", listener, false);
+    e.addEventListener("animationiteration", listener, false);
+
+    e.className = "slidein-right";
+}

@@ -10,18 +10,18 @@
         </div>
 
         <div id="page3-text">
-            <p>Intelligent Eye prevents energy wastage by using its infrared sensor to detect human movement in a room. When there is no movement, Intelligent Eye increases the temperature by 2oC to give energy savings of up to 20%. This reduces energy wastage if, for example, you forget to turn off the air conditioner. The function can be conveniently activated from the remote controller.</p>
+            <p class="pullUp">Intelligent Eye prevents energy wastage by using its infrared sensor to detect human movement in a room. When there is no movement, Intelligent Eye increases the temperature by 2oC to give energy savings of up to 20%. This reduces energy wastage if, for example, you forget to turn off the air conditioner. The function can be conveniently activated from the remote controller.</p>
         </div>
 
         <div id="page3-content">
             <ul>
-                <li id="li-1" class="li-1 slideLeft"><img src="img/3/img3-2.png"></li>
-                <li id="li-2" class="li-2 slideRight"><img src="img/3/img3-3.png"></li>
-                <li class="li-3 hatch" id="li-3"><img src="img/3/img3-5.png"></li>
-                <li id="li-4" class="li-4 slideLeft"><img src="img/3/img3-4.png"></li>
-                <li class="li-5  hatch" id="li-5"><img src="img/3/img3-5.png"></li>
-                <li id="li-6" class="li-6 slideRight"><img src="img/3/img3-3.png"></li>
-                <li id="li-7" class="li-7 slideLeft"><img src="img/3/img3-7.png"></li>
+                <li id="li-1" class="li-1"><img src="img/3/img3-2.png"></li>
+                <li id="li-2" class="li-2"><img src="img/3/img3-3.png"></li>
+                <li class="li-3 blink" id="li-3"><img src="img/3/img3-5.png"></li>
+                <li id="li-4" class="li-4"><img src="img/3/img3-4.png"></li>
+                <li class="li-5  blink" id="li-5"><img src="img/3/img3-5.png"></li>
+                <li id="li-6" class="li-6"><img src="img/3/img3-3.png"></li>
+                <li id="li-7" class="li-7"><img src="img/3/img3-7.png"></li>
             </ul>
         </div>
     </div>
@@ -38,12 +38,13 @@
             <h2>Intelligent Eye</h2>
         </div>
 
-        <div id="page3-text-print">
+        <div class="center-page-print" id="div-center-print">
             <p>Intelligent Eye prevents energy wastage by using its infrared sensor to detect human movement in a room. When there is no movement, Intelligent Eye increases the temperature by 2oC to give energy savings of up to 20%. This reduces energy wastage if, for example, you forget to turn off the air conditioner. The function can be conveniently activated from the remote controller.</p>
         </div>
 
-        <div id="page3-content-print">
-            <ul>
+        <div class="content-page-print" id="div-content-print">
+             <img src="img/3/print.png">
+           <!--  <ul>
                 <li id="li-1" class="li-1 slideLeft"><img src="img/3/img3-2.png"></li>
                 <li id="li-2" class="li-2 slideRight"><img src="img/3/img3-3.png"></li>
                 <li class="li-3 hatch" id="li-3"><img src="img/3/img3-5.png"></li>
@@ -51,7 +52,7 @@
                 <li class="li-5  hatch" id="li-5"><img src="img/3/img3-5.png"></li>
                 <li id="li-6" class="li-6 slideRight"><img src="img/3/img3-3.png"></li>
                 <li id="li-7" class="li-7 slideLeft"><img src="img/3/img3-7.png"></li>
-            </ul>
+            </ul> -->
         </div>
     </div>
 </div>
@@ -71,29 +72,34 @@
 
     timer43 = setTimeout(function () {
         $('#li-1').removeClass('li-1');
-    }, 3000);
+        rightpage1();
+    }, 4000);
 
     timer53 = setTimeout(function () {
         $('#li-2').removeClass('li-2');
-    }, 4000);
+        rightpage2();
+    }, 8000);
 
     timer63 = setTimeout(function () {
         $('#li-3').addClass('li-3-is');
-    }, 5000);
+    }, 11000);
 
     timer73 = setTimeout(function () {
         $('#li-4').removeClass('li-4');
-    }, 6000);
+        rightpage4();
+    }, 15000);
 
     timer83 = setTimeout(function () {
         $('#li-5').addClass('li-5-is');
-    }, 7000);
+    }, 18000);
 
     timer93 = setTimeout(function () {
         $('#li-6').removeClass('li-6');
-    }, 8000);
+        rightpage6();
+    }, 21000);
 
     timer103 = setTimeout(function () {
         $('#li-7').removeClass('li-7');
-    }, 9000);
+        rightpage7();
+    }, 25000);
 </script>
