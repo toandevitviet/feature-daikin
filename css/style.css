@@ -78,6 +78,7 @@
     transition-timing-function: linear;
     background-position: -5400px 0, -4600px 0, -3800px 0, -3000px 0;
 }
+
 @-webkit-keyframes colors {
     0% {background-color: #fff;}
     15% {background-color: #77E8FF;}
@@ -88,12 +89,47 @@
     90% {background-color: #77E8FF;}
     100% {background-color: #00A3C8;}
 }
+@-moz-keyframes colors {
+    0% {background-color: #fff;}
+    15% {background-color: #77E8FF;}
+    30% {background-color: #51E0FF;}
+    45% {background-color: #2FDBFF;}
+    60% {background-color: #51E0FF;}
+    75% {background-color: #fff;}
+    90% {background-color: #77E8FF;}
+    100% {background-color: #00A3C8;}
+}
+@-o-keyframes colors {
+    0% {background-color: #fff;}
+    15% {background-color: #77E8FF;}
+    30% {background-color: #51E0FF;}
+    45% {background-color: #2FDBFF;}
+    60% {background-color: #51E0FF;}
+    75% {background-color: #fff;}
+    90% {background-color: #77E8FF;}
+    100% {background-color: #00A3C8;}
+}
+@keyframes colors {
+    0% {background-color: #fff;}
+    15% {background-color: #77E8FF;}
+    30% {background-color: #51E0FF;}
+    45% {background-color: #2FDBFF;}
+    60% {background-color: #51E0FF;}
+    75% {background-color: #fff;}
+    90% {background-color: #77E8FF;}
+    100% {background-color: #00A3C8;}
+}
+
 .border,.rain{
-    -webkit-animation-direction: normal;
+    /*-webkit-animation-direction: normal;
     -webkit-animation-duration: 5s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-name: colors;
-    -webkit-animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;*/    
+    -webkit-animation: colors 5s infinite; /* Safari 4+ */
+    -moz-animation:    colors 5s infinite; /* Fx 5+ */
+    -o-animation:      colors 5s infinite; /* Opera 12+ */
+    animation:         colors 5s infinite; /* IE 10+, Fx 29+ */
 }
 .rain img{
     border-radius: 15px;

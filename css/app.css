@@ -6166,6 +6166,7 @@ li.li-3-is, li.li-5-is {
   width: 42px;
   margin-top: 45px;
   display: flex;
+  height: 50px;
 }
    
 .page4-logo, .page4-text, .page4-content{
@@ -6394,7 +6395,7 @@ h3.page8-h {
 
     #content-title {
         text-align: center;
-        font-size: 20px;
+        font-size: 22px;
     }
 
     #div-center p.page8-p, #div-center h3.page8-h{
