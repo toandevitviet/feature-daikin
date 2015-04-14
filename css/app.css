@@ -4467,7 +4467,9 @@ body {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation-direction: alternate;
-  animation-direction: alternate; }
+  animation-direction: alternate; 
+  margin-top:-50px;
+}
   .mascot .mascot-img {
     max-width: 103%; }
 
@@ -4504,10 +4506,10 @@ button.quit {
   max-height: 25%;
   height: 25%;
   overflow-y: visible; 
-  margin-top: 80px;
+  margin-top: 20px;
   position: relative;
   z-index: 400;
-  top: 100px;
+  top: 20px;
 }
 
 .bubble-top-gutter {
@@ -4535,13 +4537,13 @@ button.quit {
   min-height: 90%;  
   height: 291px;
   overflow-y: visible;
-  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+  /*text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);*/
   overflow: visible;
   text-align: center;
   -webkit-animation: fadeIn 1s;
           animation: fadeIn 1s; 
 
-  text-shadow: 2px 1px 1px #004658;
+  /*text-shadow: 2px 1px 1px #004658;*/
   font-size: 19px !important;
   left: 40px;
   
@@ -4549,7 +4551,7 @@ button.quit {
 
 .bubble-content {
   padding: 10px 13px;
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-family: 'Rumpelstiltskin', Helvetica, Arial, sans-serif; }
 
 .add-windows .main:before, .add-windows .main:after {
